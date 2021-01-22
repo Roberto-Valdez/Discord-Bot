@@ -1,8 +1,7 @@
-import discord
+import discord, datetime, random, requests
 from discord import Embed
 from discord.ext import commands
 from bs4 import BeautifulSoup
-import datetime, random, requests
 
 client = commands.Bot(command_prefix = '!')
 
